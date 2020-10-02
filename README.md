@@ -1,4 +1,4 @@
-ArduinoBlueBot
+Arduino BlueBot
 ==============
 
 An Arduino compatible differential steering robot controlled from an Android phone via Bluetooth.
@@ -6,7 +6,7 @@ An Arduino compatible differential steering robot controlled from an Android pho
 
 Description
 ===========
-This is a differential steering robot that can be controlled from an Android phone via Bluetooth. The robot�s �brain� is Arduino Uno compatible board (an �Arduino on a breadboard�). The robot uses a JY-MCU Bluetooth module for communication with the Android phone. A custom Android app, created with the MIT App Inventor 2 essentially acts as a remote control, sending commands to the Arduino that tell the robot to move forward, reverse, stop or rotate.
+This is a differential steering robot that can be controlled from an Android phone via Bluetooth. The robots brain is Arduino Uno compatible board (An Arduino on a breadboard). The robot uses a JY-MCU Bluetooth module for communication with the Android phone. A custom Android app, created with the MIT App Inventor 2 essentially acts as a remote control, sending commands to the Arduino that tell the robot to move forward, reverse, stop or rotate.
 
 The robot also has two ultrasonic sensors (one mounted on the front and one on the back) that are used for obstacle detection. If you try to drive the robot into a wall using your phone remote, the robot will overwrite that command and will stop when it detects an obstacle closer than 10 cm.
 
